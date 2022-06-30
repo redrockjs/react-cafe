@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "tailwindcss": "^3.1.4"
+  },
+  "scripts": {
+    "watch": "yarn tailwindcss -i src/html/input.css -o ./dist/output.css --watch"
+  }
+}
