@@ -2,7 +2,8 @@
   "dependencies": {
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
-    "tailwindcss": "^3.1.4"
+    "tailwindcss": "^3.1.4",
+    "tailwindcss-counter": "^1.1.3"
   },
   "scripts": {
     "watch": "yarn tailwindcss -i src/html/input.css -o ./dist/output.css --watch"

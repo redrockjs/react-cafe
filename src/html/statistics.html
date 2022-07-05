@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>React-Cafe Home</title>
+  <link rel="stylesheet" href="../../dist/output.css">
+</head>
+<body class="bg-gradient-to-r from-[#516F91] to-[#879CB3]">
+<section class="container mx-auto py-[3vh]">
+  <div class="flex justify-between items-start bg-[#E7ECEF] rounded-[10px] shadow-lg p-[30px]">
+
+    <aside class="flex flex-col justify-between self-stretch min-w-[274px]">
+      <div class="flex flex-col justify-start">
+        <!--Logo block-->
+        <div class="flex justify-center items-center">
+          <img src="./svg/logo-cafe.svg" class="w-[80%] h-[80%]" alt="Logo">
+        </div>
+        <!--Menu Block-->
+        <nav>
+          <ul>
+            <li class="flex justify-center">
+              <div class="flex justify-start items-center w-full h-[55px] border border-[#F5350B] rounded-[10px]">
+                <img class="px-[20px] self-center opacity-50" src="./svg/home.svg" alt="Home">
+                <span
+                  class="font-[500] text-[16px] leading-[19px] uppercase text-transparent bg-clip-text
+                 bg-gradient-to-r from-[#FFA014] to-[#F5350B]">Home</span>
+              </div>
+            </li>
+            <li class="flex justify-center">
+              <div class="flex justify-start items-center w-full h-[55px] border-red-300 rounded-[10px]">
+                <img class="px-[20px] self-center opacity-50" src="./svg/timeleft.svg" alt="Order history">
+                <span class="text-[#5A5752] font-[500] text-[16px] leading-[19px] uppercase">Order History</span>
+              </div>
+            </li>
+            <li class="flex justify-center">
+              <div class="flex justify-start items-center w-full h-[55px] border border-gray-300 rounded-[10px]">
+                <img class="px-[20px] self-center opacity-9" src="./svg/message.svg" alt="Messages">
+                <span class="text-[#333333] font-[500] text-[16px] leading-[19px] uppercase">Messages</span>
+              </div>
+            </li>
+            <li class="flex justify-center">
+              <div class="flex justify-start items-center w-full h-[55px] border-red-300 rounded-[10px]">
+                <img class="px-[20px] self-center opacity-50" src="./svg/vector.svg" alt="Statistics">
+                <span class="text-[#5A5752] font-[500] text-[16px] leading-[19px] uppercase">Statistics</span>
+              </div>
+            </li>
+            <li class="flex justify-center">
+              <div class="flex justify-start items-center w-full h-[55px] border-red-300 rounded-[10px]">
+                <img class="px-[20px] self-center opacity-50" src="./svg/spoon.svg" alt="Products">
+                <span class="text-[#5A5752] font-[500] text-[16px] leading-[19px] uppercase">Products</span>
+              </div>
+            </li>
+            <li class="flex justify-center">
+              <div class="flex justify-start items-center w-full h-[55px] border-red-300 rounded-[10px]">
+                <img class="px-[20px] self-center opacity-50" src="./svg/settings.svg" alt="Settings">
+                <span class="text-[#5A5752] font-[500] text-[16px] leading-[19px] uppercase">Settings</span>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!--Work Status Block-->
+      <div class="flex justify-start">
+        <img class="px-[20px] self-center opacity-50" src="./svg/toggle.svg" alt="Toggle">
+        <span class="text-[#5A5752]">Restourant Open</span>
+      </div>
+    </aside>
+
+    <main class="w-full px-[30px]">
+      <!--Top Block-->
+      <div class="flex flex-row justify-between w-full pb-[30px]">
+        <div>
+          <label class="relative block">
+            <span class="sr-only">Search</span>
+            <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+                  <img src="./svg/looking-glass.svg" alt="">
+            </span>
+            <input
+              class="placeholder:text-slate-400 block bg-white w-full
+              border border-slate-300 rounded-[10px] py-2 pl-9 pr-3
+              focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm"
+              placeholder="Search for orders..." type="text" name="search"/>
+          </label>
+        </div>
+        <div class="flex flex-row justify-center">
+          <div class="flex justify-center items-center w-[41px] h-[41px] bg-blue-500 rounded-full">
+            <span class="text-white font-medium font-[24px]">A</span>
+          </div>
+          <p class="self-center text-[#888888] text-[15px] leading-[18px] font-[400] pl-[11px]">Admin_Cafe</p>
+          <img class="pl-[5px]" src="./svg/arrow-down.svg" alt="">
+          <img class="pl-[47px]" src="./svg/bell.svg" alt="Ring">
+        </div>
+      </div>
+
+      <!--Work status block-->
+      <div class="flex flex-col justify-start items-start pb-[20px]">
+        <div class="flex justify-start items-center">
+          <p class="text-[28px] leading-[33px] font-[900] text-[#888888] pb-[7px]">TOP RESTO is open</p>
+          <img class="px-[10px]" src="./svg/toggle.svg" alt="">
+        </div>
+        <p class="text-[12px] leading-[14px] font-[500] text-[#888888]">22 May 2021, 14:21 | Sochi</p>
+      </div>
+
+      <!--Widgets block-->
+      <div class="flex justify-between items-center gap-[20px] pb-[20px]">
+        <div class="flex flex-col justify-center items-center shadow-lg h-[140px] rounded-[15px] w-full">
+          <p class="text-[12px] leading-[14px] font-[500] text-[#888888]">Total Gross Revenue</p>
+          <p class="text-[36px] leading-[42px] font-[900] text-[#888888]">$2402.23</p>
+        </div>
+        <div class="flex flex-col justify-center items-center shadow-lg h-[140px] rounded-[15px] w-full">
+          <p class="text-[12px] leading-[14px] font-[500] text-[#888888]">Accepted Orders</p>
+          <p class="text-[36px] leading-[42px] font-[900] text-[#888888]">97%</p>
+        </div>
+        <div class="flex flex-col justify-center items-center shadow-lg h-[140px] rounded-[15px] w-full">
+            <p class="text-[12px] leading-[14px] font-[500] text-[#888888]">Today’s Working Hours:</p>
+            <p class="text-[36px] leading-[42px] font-[900] text-[#888888]">8AM - 8PM</p>
+        </div>
+      </div>
+      <!--Widgets block-->
+      <div class="flex justify-between items-start gap-[20px]">
+        <div class="flex flex-col bg-gray-300 w-full shadow-lg p-[20px] rounded-[10px]">
+          <div class="flex justify-between items-center">
+            <p class="text-[21px] leading-[25px] font-[700] text-[#888888] ml-[30px] pb-[10px]">Overview</p>
+            <button class="flex justify-between items-center shadow-lg bg-gray-200 rounded-[20px] text-[#888888] p-[10px]">
+              <img class="px-[10px]" src="./svg/calendar.svg" alt="">
+              Week
+              <img class="px-[10px]" src="./svg/arrow-down.svg" alt="">
+            </button>
+          </div>
+          <div class="">
+            <img src="./images/graphic.png" alt="">
+          </div>
+        </div>
+
+        <div class="w-[33%] shadow-lg p-[20px] rounded-[10px]">
+          <p class="text-[21px] leading-[25px] font-[700] text-[#888888] ml-[30px] pb-[10px]">Top-selling</p>
+          <ul class="list-none counter-reset">
+            <li class="counter-increment before:counter-result before:inline-block before:bg-orange-500 before:text-white before:rounded-full before:py-[5px] before:px-[12px] before:mb-[10px] before:mx-[10px] text-[13px] font-[500] text-[#888888]">Loin of Vension</li>
+            <li class="counter-increment before:counter-result before:inline-block before:bg-orange-500 before:text-white before:rounded-full before:py-[5px] before:px-[12px] before:mb-[10px] before:mx-[10px] text-[13px] font-[500] text-[#888888]">Beef Medium Que</li>
+            <li class="counter-increment before:counter-result before:inline-block before:bg-orange-500 before:text-white before:rounded-full before:py-[5px] before:px-[12px] before:mb-[10px] before:mx-[10px] text-[13px] font-[500] text-[#888888]">Lasagna Emmirattee</li>
+            <li class="counter-increment before:counter-result before:inline-block before:bg-orange-500 before:text-white before:rounded-full before:py-[5px] before:px-[12px] before:mb-[10px] before:mx-[10px] text-[13px] font-[500] text-[#888888]">Chicken Mozarella</li>
+            <li class="counter-increment before:counter-result before:inline-block before:bg-orange-500 before:text-white before:rounded-full before:py-[5px] before:px-[12px] before:mb-[10px] before:mx-[10px] text-[13px] font-[500] text-[#888888]">Chicken Cordenblu</li>
+            <li class="counter-increment before:counter-result before:inline-block before:bg-orange-500 before:text-white before:rounded-full before:py-[5px] before:px-[12px] before:mb-[10px] before:mx-[10px] text-[13px] font-[500] text-[#888888]">Burger + Mash Potato</li>
+            <li class="counter-increment before:counter-result before:inline-block before:bg-orange-500 before:text-white before:rounded-full before:py-[5px] before:px-[12px] before:mb-[10px] before:mx-[10px] text-[13px] font-[500] text-[#888888]">Beef Teriyaki</li>
+            <li class="counter-increment before:counter-result before:inline-block before:bg-orange-500 before:text-white before:rounded-full before:py-[5px] before:px-[12px] before:mb-[10px] before:mx-[10px] text-[13px] font-[500] text-[#888888]">Spicy Bulgogi</li>
+            <li class="counter-increment before:counter-result before:inline-block before:bg-orange-500 before:text-white before:rounded-full before:py-[5px] before:px-[12px] before:mb-[10px] before:mx-[10px] text-[13px] font-[500] text-[#888888]">Pork Quesadilla</li>
+            <li class="counter-increment before:counter-result before:inline-block before:bg-orange-500 before:text-white before:rounded-full before:py-[5px] before:px-[12px] before:mb-[10px] before:mx-[10px] text-[13px] font-[500] text-[#888888]">Pickled Chillis</li>
+          </ul>
+        </div>
+
+      </div>
+
+
+    </main>
+
+  </div>
+</section>
+</body>
+</html>
+
