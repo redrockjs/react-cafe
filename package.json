@@ -1,4 +1,8 @@
 {
+  "name": "react-cafe",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
   "dependencies": {
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
